@@ -84,7 +84,7 @@ const Contact = () => {
       </div>
 
       {/* Footer */}
-      <p className="text-center mt-5 text-sm lg:text-base">
+      <p className="text-center mt-5 pb-5 text-sm lg:text-base">
         Made with ❤️ by Manikandan A
       </p>
     </div>
