@@ -1,43 +1,58 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import hot from "../assets/projects/hot.png";
+import netflix from "../assets/projects/netflix.png";
+import nostra from "../assets/projects/nostra.jpg";
+import portfolio from "../assets/projects/art.webp";
+import udemy from "../assets/projects/udemy.png";
 
-export const HERO_CONTENT = `I am a dedicated MERN stack developer with a strong focus on building robust and scalable web applications. With extensive experience in technologies like React, Node.js, Express, and MongoDB.`
+export const HERO_CONTENT = `I am an experienced MERN stack developer specializing in building scalable and robust web applications. My expertise spans across modern technologies including React, Node.js, Express, and MongoDB, enabling the delivery of high-performance solutions.`;
 
-export const ABOUT_TEXT =`Hello, folks! I am a dedicated and versatile MERN Stack developer with a passion for building efficient and user-friendly web applications. As a fresher, I have honed my skills in HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, and Redux. My journey in web development began with a curiosity to understand how modern web technologies work, which has now grown into a strong foundation in full stack development. I thrive in collaborative environments, always eager to tackle new challenges and contribute to impactful solutions`
-
+export const ABOUT_TEXT = `Hello! I am a versatile MERN Stack developer with a focus on delivering efficient and user-centric web applications. With solid skills in HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, and Redux, I have developed a strong foundation in full stack development. My journey in this field is driven by a deep interest in modern web technologies, and I thrive in collaborative environments that present new challenges and opportunities for impactful contributions.`;
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Hot E-Commerce Platform",
+    image: hot,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    live:"https://github.com/manikandan-a-k",
-    github:"https://github.com/manikandan-a-k"
+      "A comprehensive ecommerce platform featuring an admin panel for product and order management, and a seamless user shopping experience with dynamic product listings, a shopping cart, cash on delivery, and order tracking functionality.",
+    technologies: ["React", "MongoDB", "Node.js", "Express.js"],
+    live: "https://github.com/manikandan-a-k",
+    github: "https://github.com/manikandan-a-k/hot-shop-ecommerce",
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Netflix Clone",
+    image: netflix,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A full-stack Netflix clone providing user authentication, trending content, now playing and top-rated movies, upcoming releases, and popular TV shows airing today.",
+    technologies: ["React", "Redux", "MongoDB", "Node.js", "Express.js"],
+    live: "https://netflix-mern-6raz.onrender.com",
+    github: "https://github.com/manikandan-a-k/netflix-mern",
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: portfolio,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A professional portfolio website showcasing my projects, technical skills, and contact information in an organized and visually appealing format.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    live: "https://manikandan-ak-portfolio.vercel.app",
+    github: "https://github.com/manikandan-a-k/Portfolio",
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Udemy Clone",
+    image: udemy,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A static Udemy platform featuring top recommended and most popular courses, built to replicate a modern online learning interface.",
+    technologies: ["React", "Tailwind CSS"],
+    live: "https://udemy-react-dusky.vercel.app/",
+    github: "https://github.com/manikandan-a-k/udemy-react",
+  },
+  {
+    title: "Nostra E-Commerce",
+    image: nostra,
+    description:
+      "A static ecommerce platform highlighting New Arrivals, Most Wanted items, and collections for Summer, Party, and Beach, with a dedicated contact page.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    live: "https://nostra-ecommerce.vercel.app/",
+    github: "https://github.com/manikandan-a-k/nostra-ecommerce",
   },
 ];
 
