@@ -15,7 +15,7 @@ export const PROJECTS = [
     description:
       "A comprehensive ecommerce platform featuring an admin panel for product and order management, and a seamless user shopping experience with dynamic product listings, a shopping cart, cash on delivery, and order tracking functionality.",
     technologies: ["React", "MongoDB", "Node.js", "Express.js"],
-    live: "https://github.com/manikandan-a-k",
+    live: "https://hot-shop-ecommerce.onrender.com",
     github: "https://github.com/manikandan-a-k/hot-shop-ecommerce",
   },
   {
