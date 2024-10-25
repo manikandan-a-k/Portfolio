@@ -13,7 +13,7 @@ const About = () => {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
-        className="my-3 lg:my-20 text-2xl sm:text-3xl lg:text-4xl text-center"
+        className="mx-4 my-8 lg:my-20 text-3xl lg:text-4xl text-center"
       >
         🌌 About <span className="text-neutral-500">Me 🦄</span>
       </motion.h2>
