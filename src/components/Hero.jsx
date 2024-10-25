@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <div id="home" className="text-stone-300">
       <div className="flex flex-col items-center justify-center gap-10 md:gap-0 md:justify-center md:flex-row min-h-screen w-full md:items-center">
-        {/* Image Section */}
+
         <div className="w-full lg:w-1/2 flex flex-col items-center md:flex-row md:justify-center">
           <div className="image-container">
             <motion.img
@@ -25,7 +25,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        {/* Text Section */}
+        
         <div className="w-full lg:w-[45%] flex flex-col space-y-4 items-center lg:items-start text-center lg:text-left mb-8 lg:mb-0">
           <motion.div
             variants={container(0)}
@@ -50,7 +50,7 @@ const Hero = () => {
             <span className="text-[#7b93fe]">
               <Typewriter
                 words={["MERN Stack", "Full Stack"]}
-                loop={0} // Infinite loop
+                loop={0} 
                 cursor
                 cursorStyle=""
                 typeSpeed={100}
@@ -61,7 +61,7 @@ const Hero = () => {
             <span> Developer</span>
           </motion.p>
 
-          {/* Buttons */}
+         
           <motion.div
             variants={container(1)}
             initial="hidden"

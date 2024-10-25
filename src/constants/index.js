@@ -4,7 +4,7 @@ import nostra from "../assets/projects/nostra.jpg";
 import portfolio from "../assets/projects/art.webp";
 import udemy from "../assets/projects/udemy.png";
 
-export const HERO_CONTENT = `I am an experienced MERN stack developer specializing in building scalable and robust web applications. My expertise spans across modern technologies including React, Node.js, Express, and MongoDB, enabling the delivery of high-performance solutions.`;
+
 
 export const ABOUT_TEXT = `Hello! I am a versatile MERN Stack developer with a focus on delivering efficient and user-centric web applications. With solid skills in HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, and Redux, I have developed a strong foundation in full stack development. My journey in this field is driven by a deep interest in modern web technologies, and I thrive in collaborative environments that present new challenges and opportunities for impactful contributions.`;
 

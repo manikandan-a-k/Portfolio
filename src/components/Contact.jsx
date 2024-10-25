@@ -21,9 +21,9 @@ const Contact = () => {
         🌌 Contact 🦄
       </h2>
 
-      {/* Social Icons */}
+
       <div className="flex flex-wrap justify-center mt-10 items-center space-x-6">
-        {/* LinkedIn */}
+     
         <a
           href="https://www.linkedin.com/in/manikandan-ak/"
           target="_blank"
@@ -40,7 +40,7 @@ const Contact = () => {
           />
         </a>
 
-        {/* GitHub */}
+    
         <a
           href="https://github.com/manikandan-a-k"
           target="_blank"
@@ -57,7 +57,7 @@ const Contact = () => {
           />
         </a>
 
-        {/* Mail */}
+       
         <a
           href="mailto:manikandanalagesan08@gmail.com"
           className="hover:scale-110 transition-transform duration-300"
@@ -73,7 +73,7 @@ const Contact = () => {
         </a>
       </div>
 
-      {/* Responsive Image */}
+    
       <div className="mt-10 w-full flex justify-center">
         <img
           src="/art.webp"
@@ -82,7 +82,7 @@ const Contact = () => {
         />
       </div>
 
-      {/* Footer */}
+     
       <p className="text-center mt-5 pb-5 text-sm lg:text-base">
         Made with ❤️ by Manikandan A
       </p>
