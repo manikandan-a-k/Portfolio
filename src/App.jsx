@@ -2,9 +2,9 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Contact from "./components/Contact"
+import Contact from "./components/Contact";
 import Projects from "./components/Projects";
-
+import { Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <div className="overflow-hidden">
@@ -14,12 +14,13 @@ const App = () => {
         </div>
       </div>
       <Navbar />
-      <div className="container mx-auto md:px-8  text-neutral-200">
-       <Hero/>
-       <About/>
-       <Projects/>
-       <Contact/>
-      
+      <div className="text-stone-200">
+        <Routes>
+          <Route path={"/"} element={<Hero />} />
+          <Route path={"/about"} element={<About />} />
+          <Route path={"/projects"} element={<Projects />} />
+          <Route path={"/contact"} element={<Contact />} />
+        </Routes>
       </div>
     </div>
   );

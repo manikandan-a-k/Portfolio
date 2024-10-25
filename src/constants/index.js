@@ -17,6 +17,8 @@ export const PROJECTS = [
     technologies: ["React", "MongoDB", "Node.js", "Express.js"],
     live: "https://hot-shop-ecommerce.onrender.com",
     github: "https://github.com/manikandan-a-k/hot-shop-ecommerce",
+
+    
   },
   {
     title: "Netflix Clone",

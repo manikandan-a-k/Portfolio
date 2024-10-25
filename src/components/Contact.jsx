@@ -78,7 +78,7 @@ const Contact = () => {
         <img
           src="/art.webp"
           alt="Art"
-          className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-full rounded-lg"
+          className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl xl:max-w-lg rounded-lg"
         />
       </div>
 

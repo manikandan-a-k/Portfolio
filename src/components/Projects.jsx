@@ -7,10 +7,10 @@ const Projects = () => {
   return (
     <div id="projects" className="border-b border-neutral-800 pb-4">
       <motion.h2
-        whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: -100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
-        className="my-8 mx-4 lg:my-20 text-3xl lg:text-4xl text-center"
+        className=" mx-4 my-8 lg:my-20 text-3xl lg:text-4xl text-center"
       >
         🌌 Projects 🦄
       </motion.h2>
